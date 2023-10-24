@@ -3,5 +3,12 @@
 @tailwind utilities;
 
 body {
-  background:#F6F1E9
+  background:#F6F1E9;
+  font-family: "Raleway", Helvetica, Arial !important;
+}
+
+.bg-navbur{
+  background-color: rgba(246, 241, 233, var(--tw-bg-opacity));
+border-left: 1px solid black;
+height: 100%;
 }
