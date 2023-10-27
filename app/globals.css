@@ -7,8 +7,68 @@ body {
   font-family: "Raleway", Helvetica, Arial !important;
 }
 
-.bg-navbur{
-  background-color: rgba(246, 241, 233, var(--tw-bg-opacity));
-border-left: 1px solid black;
-height: 100%;
+.hero-section{
+  height: 650px;
+}
+
+.show .logoContainer{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.show #bgmenu{
+  opacity: 1;
+  visibility: visible;
+}
+
+#bgmenu{
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 150ms linear 80ms, visibility 150ms linear 80ms;
+}
+
+.logoContainer{
+  transition: opacity 300ms linear, visibility 300ms linear;
+  opacity: 1;
+  visibility: visible;
+
+}
+.navWrapper{
+  min-height: 10vh;
+  transition: min-height 500ms cubic-bezier(.4,0,.6,1) 80ms;
+}
+
+.show{
+  min-height: 100vh;
+}
+
+.hero-bg{
+  background-image: url('../public/hero-backg.jpeg');
+  background-color: #eee4be3d;
+  background-position: -78px 0px;
+  background-blend-mode: multiply;
+  opacity: .9;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-size: 1400px;
+  background-repeat: no-repeat;
+}
+
+.copyContainer{
+  color: #31353d;
+}
+
+.btn-services{
+  background: #FF8400;
+  color: white;
+}
+
+.button{
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -15,6 +15,9 @@ const config: Config = {
       },
       flexGrow: {
         2:'2',
+      },
+      fontSize: {
+        '12vw':'12vw',
       }
     },
   },
