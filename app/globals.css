@@ -7,8 +7,30 @@ body {
   font-family: "Raleway", Helvetica, Arial !important;
 }
 
+.hero-cta .button:hover{
+  box-shadow: #0000004f 2px 2px;
+  transform: translateY(2px);
+}
+
+@media only screen and (max-width: 500px){
+  .hero-cta{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .copyContainer{
+    padding: 0;
+    margin-bottom: .5rem;
+  }
+
+}
+
 .hero-section{
   height: 650px;
+}
+
+a{
+  cursor: pointer;
 }
 
 .show .logoContainer{
@@ -71,4 +93,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: #0000004f 4px 4px;
 }
