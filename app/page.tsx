@@ -11,11 +11,11 @@ export default function Home() {
         <div className="section-content h-fit">
           <div className="copyContainer h-full w-full flex justify-start flex-col pl-5 items-start mb-4 lg:w-full lg:justify-center">
               <h1 className='text-12vw font-bold leading-tight mb-4 lg:text-7xl'>
-                Abre una LLC <br />en 3 pasos
+                Abre una LLC <br />en <span className="whitespace-nowrap color-pdt">3 pasos</span>
               </h1>
               <h3 className='text-2xl font-normal mb-5'>Lleva tus negocios a Estados Unidos.</h3>
           </div>
-          <div className="hero-cta flex flex-row gap-8 items-start lg:px-8">
+          <div className="hero-cta flex flex-row gap-8 items-start lg:pr-12 pl-4 mb-12">
             <div className="button btn-learn border-2 rounded-xl border-black text-xl shadow-2xl py-6"><a>¿Cómo funciona?</a></div>
             <div className="button btn-services rounded-lg text-xl shadow-2xl py-6"><a>Servicios</a></div>
           </div>
