@@ -4,7 +4,7 @@
 
 body {
   background:#f3eee8;
-  font-family: "Raleway", Helvetica, Arial !important;
+  font-family: "Raleway",Sans-serif;
 }
 
 .hero-cta .button:hover{
@@ -23,7 +23,7 @@ body {
     margin-bottom: .5rem;
   }
 
-  .chevron-copy{
+  .more-copy{
     flex-direction: column;
     max-width: 300px;
     row-gap: 2rem;
@@ -112,18 +112,18 @@ a{
   box-shadow: #0000004f 4px 4px;
 }
 
-#chevron {
+#section-more {
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 12px;
-  margin-bottom: 6px;
   height: fit-content;
   padding-bottom: 3rem;
+  margin-bottom: 2rem;
   width: 100%;
   background: white;
 }
-/* #chevron:before {
+/* #more:before {
   content: '';
   position: relative;
   display: inline-block;
@@ -134,7 +134,7 @@ a{
   background: white;
   transform: skew(0deg, 6deg);
 }
-#chevron:after {
+#more:after {
   content: '';
   position: relative;
   display: inline-block;
@@ -146,10 +146,20 @@ a{
   transform: skew(0deg, -6deg);
 } */
 
-.chevron-title{
+.more-title{
   color:#FF8400
 }
 
-.chevron-copy{
+@media only screen and (max-width:500px){
+  .more-title{
+    margin-bottom: 0;
+  }
+}
+
+.more-copy{
   display: flex;
+}
+
+.more-item{
+  max-width: 400px;
 }

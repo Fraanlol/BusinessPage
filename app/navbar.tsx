@@ -21,17 +21,17 @@ export default function NavBar() {
             <p>Logo</p>
             <p className="pl-4 pt-2 relative right-7 top-2 border-b border-black">Empresa</p>
           </div>
-          <div className="flex-1 text-md font-thin hidden lg:block">
+          <div className="flex-1 text-md font-medium hidden lg:block">
             <ul className="flex flex-row justify-center">
-              <li className='px-6 hover:border-b cursor-pointer'>Servicios
+              <li className='px-6 hover:border-b-2 border-yellow-600 cursor-pointer'>Servicios
                 <ul className="hiddenList">
 
                 </ul>
               </li>
-              <li className='px-6 hover:border-b cursor-pointer'><a href="#">Blog</a></li>
-              <li className='px-6 hover:border-b cursor-pointer'><a href="#">Clientes</a></li>
-              <li className='px-6 hover:border-b cursor-pointer'><a href="#">Nosotros</a></li>
-              <li className='px-6 hover:border-b cursor-pointer'><a href="#">FAQ</a></li>
+              <li className='px-6 hover:border-b-2 border-yellow-600 cursor-pointer'><a href="#">Blog</a></li>
+              <li className='px-6 hover:border-b-2 border-yellow-600 cursor-pointer'><a href="#">Clientes</a></li>
+              <li className='px-6 hover:border-b-2 border-yellow-600 cursor-pointer'><a href="#">Nosotros</a></li>
+              <li className='px-6 hover:border-b-2 border-yellow-600 cursor-pointer'><a href="#">FAQ</a></li>
             </ul>
           </div>
           <div className="self-start flex-1 text-xl font-thin lg:hidden flex justify-end pt-6">
@@ -49,18 +49,18 @@ export default function NavBar() {
             }
           }} src={AionData} ref={playerRef}  style={{ height: '45px', width: '45px' }} className='z-10 relative'>
           </Player>
-            <ul id='bgmenu' className="flex text-2xl flex-col absolute top-0 right-0 bg-navbur bg-opacity-100 pt-32 pl-10 md:pl-20 w-full h-100 justify-start items-start">
-              <li className='py-6 hover:border-b cursor-pointer'>Servicios</li>
-              <li className='py-6 hover:border-b cursor-pointer'><a href="#">Blog</a></li>
-              <li className='py-6 hover:border-b cursor-pointer'><a href="#">Clientes</a></li>
-              <li className='py-6 hover:border-b cursor-pointer'><a href="#">Nosotros</a></li>
-              <li className='py-6 hover:border-b cursor-pointer'><a href="#">FAQ</a></li>
+            <ul id='bgmenu' className="flex text-3xl font-medium flex-col absolute top-0 right-0 bg-navbur bg-opacity-100 pt-32 pl-10 md:pl-20 w-full h-100 justify-start items-start">
+              <li className='py-6 hover:border-b-2 border-yellow-600 cursor-pointer'>Servicios</li>
+              <li className='py-6 hover:border-b-2 border-yellow-600 cursor-pointer'><a href="#">Blog</a></li>
+              <li className='py-6 hover:border-b-2 border-yellow-600 cursor-pointer'><a href="#">Clientes</a></li>
+              <li className='py-6 hover:border-b-2 border-yellow-600 cursor-pointer'><a href="#">Nosotros</a></li>
+              <li className='py-6 hover:border-b-2 border-yellow-600 cursor-pointer'><a href="#">FAQ</a></li>
             </ul>
           </div>
           <div className="contactContainer grow text-md text-center w-min hidden lg:flex justify-center">
             <div className="content flex justify-center items-center w-fit border-black border rounded-md shadow-md">
               <Image src="/icon-wsp.svg" alt="" width={28} height={28} className='m-3'/>
-              <a className='pr-5'>+54 99 11 1234-5678</a>
+              <a className='pr-5 font-medium'>+54 99 11 1234-5678</a>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ import Content from './content'
 
 export default function Home() {
   return (
-    <main>
+    <>
       <header className='z-10 relative'>
         <NavBar></NavBar>
       </header>
@@ -27,6 +27,6 @@ export default function Home() {
         </div>
       </div>
       <Content></Content>
-    </main>
+    </>
   )
 }
